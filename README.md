@@ -34,7 +34,7 @@ We send flows from h1 to h5, from h2 to h6, from h3 to h7, and from h4 to h8. Ea
    ./nload_tmux_medium.sh
    ```
 
-3. Send traffic from `h1-h4` to `h5-h8`. Create the traffic trace via
+3. Send traffic from `h1-h4` to `h5-h8` (Make sure that you have run `make` in apps/traffic_generator). Create the traffic trace via
 
    ```bash
    python apps/trace/generate_trace.py ./apps/trace/project6_onetoone.json

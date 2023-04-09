@@ -12,7 +12,6 @@
 **/*.swo
 
 **/p4src/*.json
-**/*_topo.json
 
 .idea
 .DS_Store
